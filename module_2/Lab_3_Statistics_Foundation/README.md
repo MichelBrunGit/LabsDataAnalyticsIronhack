@@ -61,81 +61,83 @@ Mean	46,5
 mi*xi		152	383,5	841,5	278	358	328,5	129,5	149,5	169,5
 
 Std	62,4438731										
-											
-mi*xi		152	383,5	841,5	278	358	328,5	129,5	149,5	169,5	
-mi-μ		-37,00	29,50	49,50	69,50	89,50	109,50	129,50	149,50	169,50	
-(mi-μ)2		1369	870,25	2450,25	4830,25	8010,25	11990,25	16770,25	22350,25	28730,25	
-ni*(mi-μ)2		21904	11313,25	41654,25	19321	32041	35970,75	16770,25	22350,25	28730,25	
+
+| Time	(hours) | 0–19 | 20–39 | 40–59 | 60–79 | 80–99 | 100–119 | 120–139 | 140–159 | 160–179	|
+| :---:         | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:      | :---: |
+|mi * xi	|   152	    |383,5      |	841,5	|   278   |	358   |	328,5   |	129,5|	149,5   |	169,5	|
+|mi-μ	        |   -37,00	|   29,50   |	49,50|	69,50	|89,50	|109,50|	129,50	|149,50|	169,50	|
+|(mi-μ)2	|	1369   |	870,25  |	2450,25	|4830,25	|8010,25	|11990,25   |	16770,25|	22350,25|	28730,25|	
+|ni*(mi-μ)2	|	21904	|11313,25   |	41654,25	|   19321	|   32041|	35970,75	|16770,25|	22350,25	|28730,25|	
 											
 Standard Deviation: √Σni(mi-μ)2 / (N-1)											
 											
 where:											
 											
-ni: The frequency of the ith group											
-mi: The midpoint of the ith group											
-μ: The mean											
-N: The total sample size											
+ni = The frequency of the ith group <br />										
+mi = The midpoint of the ith group  <br />									
+μ = The mean  <br />											
+N = The total sample size  <br />											
 
 ## Part 2
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains.
+* A. The values that the player obtains. <br />
 S={(1,1)(1,2)(1,3).....(2,1)(2,2)......(6,6)}
-* B. The sum of the values obtained.
+* B. The sum of the values obtained. <br />
 Sum={2,3,4,...12}
-* C. The maximum value obtained after rolling both dices.
+* C. The maximum value obtained after rolling both dices. <br />
 Max=12
 
 Describe the following events:
-* Case A: Both values are greater than 5.
+* Case A: Both values are greater than 5. <br />
 S={(6,6)}
-* Case B: The sum of values is even.
+* Case B: The sum of values is even. <br />
 S={(1,1)(1,3)(1,5)(2,2)(2,4)(2,6)(3,1)(3,3)(3,5)(4,2)(4,4)(4,6)(5,1)(5,3)(5,5)(6,2)(6,4)(6,6)}
-* Case C: The maximum is the value of both rolls.
+* Case C: The maximum is the value of both rolls. <br />
 S={1,2,3,4,5,6}
 
 ### Challenge 2
-One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
+One player picks two cards from a poker deck. Describe the measurable space and the random variable for: <br />
 S={(1,1)(1,2)(1,3)....(1,V)(1,D)(1,R)(2,1)........(R,1)(R,2)....(R,R)}
-* A. The number of figures he picks.
+* A. The number of figures he picks. <br />
 S={0,1,2}
-* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
+* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15. <br />
 S={3,4,5,6,7,8,9,10,11,.......,20,21,22,23,24,25,30}
-* C. The number of hearts or spades he picks.
+* C. The number of hearts or spades he picks. <br />
 S={0,1,2}
 
 Describe the following events:
-* Case A: The number of figures in the cards the player picked is two.
+* Case A: The number of figures in the cards the player picked is two. <br />
 S={(V,V)(V,D)(V,R)(V,A)(D,V).........(A,V)....(A,A)}
-* Case B: The sum of card values is 17.
+* Case B: The sum of card values is 17. <br />
 S={(2,A)(7,10)(7,V)(7,D)(7,R)(8,9)(9,8)(10,7)(V,7)(D,7)(R,7)(A,2)}
-* Case C: The value of both cards is less than 8.
+* Case C: The value of both cards is less than 8. <br />
 S={(2,1)(2,2).....(2,8)(3,2).....(3,8)......(8,2)(8,3)....(8,8)}
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
-* A. The score of player A.
+* A. The score of player A. <br />
 S={1,2,3,4,5,6}
-* B. The greatest score.
+* B. The greatest score. <br />
 S=6
 * C. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets a coin from the other player.".
+"The player with the greatest score gets a coin from the other player.". <br />
 S={-1,1}
 * D. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
+"The player with the greatest score gets as many coins as the difference between the score of player A and player B.".  <br />
 S={-5,-4,-3,-2,-2,-1,0,1,2,3,4,5}
 
 Describe the following events:
-* Case A: The score of player A is 2.
+* Case A: The score of player A is 2. <br />
 S=2
-* Case B: The greatest score is lower or equal than 2.
+* Case B: The greatest score is lower or equal than 2. <br />
 S={(1,1)(1,2)(2,1)(2,2)}
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
-  * Player A wins at least 4 coins.
+  * Player A wins at least 4 coins. <br />
   S={(5,1)(6,1)(6,2)}
-  * Player A loses more than 2 coins.
+  * Player A loses more than 2 coins. <br />
   S={(1,4)(1,5)(1,6)(2,5)(2,6)(3,6)}
-  * Player A neither wins nor loses coins.
+  * Player A neither wins nor loses coins. <br />
   S={(1,1)(2,2)...(6,6)}
 
 ## Bonus challenges
@@ -189,11 +191,12 @@ Describe the measurable space and the random variable for:
 |14 | 83 |
 |15 | 98 |
 
-MEAN=79.93
-SUM=1199
-STANDARD DEVIATION=14.69
-VARIANCE=215.93
-MIN=56
-MAX=98
+Please find MEAN, SUM, STANDARD DEVIATION, VARIANCE, MIN and MAX. <br />
+ <br />MEAN=79.93 <br />
+SUM=1199 <br />
+STANDARD DEVIATION=14.69 <br />
+VARIANCE=215.93 <br />
+MIN=56 <br />
+MAX=98 <br />
 
-Please find MEAN, SUM, STANDARD DEVIATION, VARIANCE, MIN and MAX.
+
