@@ -1,0 +1,15 @@
+Hey guys, Google AI experiment released AutoDraw. 
+It is a tool that makes fast drawing for everyone – even if you don’t know how to draw. It uses machine learning to analyze human drawings, then a neural network tries to guess what you’re drawing and get better over time at guessing what they are. It uses Google’s image recognition software to identify potential objects and pairs that with a database of neat and simplistic hand-drawn images. I would think it is the same technology used for face recognition. 
+Since the model needs to be trained we have some wrong ouput like turning a taco into a boomerang or turning a shooting star into a battle ax.
+So if you want to draw something quick, use Quick draw or if you want to play a drawing things asked by Google, check this out: https://quickdraw.withgoogle.com/
+
+
+* If it is so important as the title says (is it really a big step?) or you think it is more important than the title let's suggests.
+* Which part of ML or AI is used and how is it related to ML or AI.
+* What did they do to take the data.
+* Which data did they use.
+* How did they do to build the model. Which type of model is?
+* Do you know any other project that applies the same techniques? Could you use something for another use case?
+* Do you find any ethical implications? Collateral effects?
+* Do you know any news related?
+
