@@ -2,6 +2,13 @@
 
 [Link to Tableau Public](https://public.tableau.com/app/profile/michel.brun/viz/Ironhack-DAFT-M2-Lab27_Advanced_Tableau/Story1)
 
+![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+
+
+## Introduction
+
+In this lab, we will practice more in Business Intelligence in Tableau
+
 ### Part 1
 
 Questions:
